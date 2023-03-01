@@ -1,0 +1,22 @@
+{
+	"name" : "Player Dot with Down Counter",
+	"description" : "Restore U217 player dot indicator with down counter",
+	"author" : "Shane",
+	"Contact" : "https://steamcommunity.com/id/Shane1230/",
+	"version" : "1.0",
+	"priority": 1,
+	"hooks": [
+		{ 
+			"hook_id" : "lib/managers/hud/hudteammate",
+			"script_path" : "PDDC.lua"
+		}
+	],
+	"updates": [
+        		{
+		"identifier": "pddc",
+		"host": {
+		"meta": "https://raw.githubusercontent.com/Shane1230/autoupdate/main/PDDC"
+	 	}
+	}
+	]
+}
